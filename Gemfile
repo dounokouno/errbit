@@ -10,17 +10,17 @@ gem 'railties', RAILS_VERSION
 
 gem 'actionmailer_inline_css'
 gem 'decent_exposure'
-gem 'devise', '~> 4.7'
+gem 'devise'
 gem 'dotenv-rails'
 gem 'draper'
 gem 'errbit_plugin'
 gem 'errbit_github_plugin'
 gem 'font-awesome-rails'
-gem 'haml', '~> 5.1'
+gem 'haml'
 gem 'htmlentities'
 gem 'kaminari'
 gem 'kaminari-mongoid'
-gem 'mongoid', '~> 5.4'
+gem 'mongoid'
 gem 'omniauth'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
@@ -91,7 +91,7 @@ group :heroku, :production do
 end
 
 group :no_docker, :test, :development do
-  gem 'mini_racer', '~> 0.3.1', platform: :ruby # C Ruby (MRI) or Rubinius, but NOT Windows
+  gem 'mini_racer', platform: :ruby # C Ruby (MRI) or Rubinius, but NOT Windows
 end
 
 gem 'puma', '~> 4.3.8'
