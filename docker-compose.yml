@@ -12,6 +12,6 @@ services:
       - RACK_ENV=production
       - MONGO_URL=mongodb://mongo:27017/errbit
   mongo:
-    image: mongo:4.1
+    image: mongo:5.0
     ports:
       - "27017"
